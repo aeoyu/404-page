@@ -1,0 +1,85 @@
+body {
+    background: #ffe7d1;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* width: 100%;
+    position: absolute;
+    top: 35%; */
+    /* margin-left: 400px; */
+}
+
+.container h2 {
+    letter-spacing: 1px;
+}
+
+.container h1 {
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: #e62222;
+}
+
+.container p {
+    font-size: 19px;
+}
+
+.container a {
+    background-color: #e62222;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 19px;
+    padding: 10px 20px;
+    color: linen;
+}
+
+nav {
+    background-color: rgb(255, 201, 85);
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff3a40;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+a {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    margin: 3px 10px;
+    text-decoration: none;
+}
+
+.wrapper {
+    /*  flex will make sure childrens are displayed in a row horizontally  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.text {
+    display: flex;
+    margin-right: 50px;
+    flex-direction: column;
+}
+
+.icon {
+    display: flex;
+    /* margin-left: 500px;
+    margin-top: 50px; */
+}
